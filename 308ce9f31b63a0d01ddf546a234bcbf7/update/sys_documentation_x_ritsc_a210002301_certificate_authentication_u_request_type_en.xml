@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_request_type" label="Request type" language="en" table="x_ritsc_a210002301_certificate_authentication">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_request_type</element>
+            <help/>
+            <hint/>
+            <label>Request type</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_certificate_authentication</name>
+            <plural>Request types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 04:48:16</sys_created_on>
+            <sys_id>f488a9f81b3f68d01ddf546a234bcbb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request type</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_certificate_authentication_u_request_type_en</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 04:48:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_ritsc_a210002301_fixed_ip_address_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:33:40</sys_created_on>
+            <sys_id>29a739fadb943410a050b3c5f396190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_fixed_ip_address_management_u_status</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-27 07:33:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>allocated</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>100</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:33:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4477f5bedb943410a050b3c5f3961928</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:43:23</sys_updated_on>
+            <value>allocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>割当済</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>100</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:34:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaa7b576dbd43410a050b3c5f3961936</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:43:32</sys_updated_on>
+            <value>allocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>unallocated</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>200</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:35:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c083176dbd43410a050b3c5f3961917</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:43:43</sys_updated_on>
+            <value>unallocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>未割当</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>200</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cee77176dbd43410a050b3c5f39619df</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:43:48</sys_updated_on>
+            <value>unallocated</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

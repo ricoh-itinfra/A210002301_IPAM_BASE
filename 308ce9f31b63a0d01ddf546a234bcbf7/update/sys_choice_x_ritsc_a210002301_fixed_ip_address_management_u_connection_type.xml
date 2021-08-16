@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_connection_type" table="x_ritsc_a210002301_fixed_ip_address_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_connection_type</element>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 06:40:34</sys_created_on>
+            <sys_id>6932023c1bff68d01ddf546a234bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_connection_type</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_fixed_ip_address_management_u_connection_type</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 06:40:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wired</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>100</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 06:40:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82228e3c1bff68d01ddf546a234bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 06:40:34</sys_updated_on>
+            <value>wired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>有線</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>100</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 06:41:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e32027c1bff68d01ddf546a234bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 06:41:03</sys_updated_on>
+            <value>wired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wireless</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>200</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 06:41:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe5246b81bff68d01ddf546a234bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 06:41:26</sys_updated_on>
+            <value>wireless</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>無線</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence>200</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 06:41:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2472827c1bff68d01ddf546a234bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 06:41:50</sys_updated_on>
+            <value>wireless</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_mac_address_name" label="MACアドレス名" language="ja" table="x_ritsc_a210002301_ip_address_and_mac_address_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_mac_address_name</element>
+            <help/>
+            <hint/>
+            <label>MACアドレス名</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_ip_address_and_mac_address_request</name>
+            <plural>MACアドレス名</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-27 02:14:10</sys_created_on>
+            <sys_id>0dde4ac51b732cd01ddf546a234bcb8c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>MACアドレス名</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_ip_address_and_mac_address_request_u_mac_address_name_ja</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-27 02:16:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_vlan" label="Vlan" language="en" table="x_ritsc_a210002301_mac_address_authentication">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_vlan</element>
+            <help/>
+            <hint/>
+            <label>Vlan</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <plural>Vlans</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 05:17:54</sys_created_on>
+            <sys_id>7e4f29381b7f68d01ddf546a234bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vlan</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_mac_address_authentication_u_vlan_en</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 05:17:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

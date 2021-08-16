@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_applicant_ruid" label="Applicant ruid" language="en" table="x_ritsc_a210002301_fixed_ip_address_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_applicant_ruid</element>
+            <help/>
+            <hint/>
+            <label>Applicant ruid</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <plural>Applicant ruids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 06:54:54</sys_created_on>
+            <sys_id>ef754ef01b33a8d01ddf546a234bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Applicant ruid</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_fixed_ip_address_management_u_applicant_ruid_en</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 06:54:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

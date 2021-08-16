@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>g10023658</sys_created_by>
+        <sys_created_on>2021-04-26 03:58:16</sys_created_on>
+        <sys_id>541d95741bfb68d01ddf546a234bcbff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_ritsc_a210002301_mac_address_authentication.x_ritsc_a210002301.io_user</sys_name>
+        <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+        <sys_security_acl display_value="x_ritsc_a210002301_mac_address_authentication">101d95741bfb68d01ddf546a234bcbd2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_541d95741bfb68d01ddf546a234bcbff</sys_update_name>
+        <sys_updated_by>g10023658</sys_updated_by>
+        <sys_updated_on>2021-04-26 04:33:17</sys_updated_on>
+        <sys_user_role display_value="x_ritsc_a210002301.io_user" name="x_ritsc_a210002301.io_user">7c62ed7c1bfb68d01ddf546a234bcbf1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

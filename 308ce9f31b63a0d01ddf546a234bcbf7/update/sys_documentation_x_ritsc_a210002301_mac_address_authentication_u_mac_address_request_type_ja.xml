@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_mac_address_request_type" label="MACアドレス申請区分" language="ja" table="x_ritsc_a210002301_mac_address_authentication">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_mac_address_request_type</element>
+            <help/>
+            <hint/>
+            <label>MACアドレス申請区分</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <plural>MACアドレス申請区分</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-04-26 05:21:07</sys_created_on>
+            <sys_id>b100f1b81b7f68d01ddf546a234bcbfe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>MACアドレス申請区分</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_mac_address_authentication_u_mac_address_request_type_ja</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-04-26 05:21:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
