@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_number_of_total" label="Number of Total" language="en" table="x_ritsc_a210002301_ip_address_bulk_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_number_of_total</element>
+            <help/>
+            <hint/>
+            <label>Number of Total</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_bulk_request</name>
+            <plural>Number of Totals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-04 01:45:16</sys_created_on>
+            <sys_id>699646acdb8ff854a050b3c5f39619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number of Total</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_ip_address_bulk_request_u_number_of_total_en</sys_update_name>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-04 01:45:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

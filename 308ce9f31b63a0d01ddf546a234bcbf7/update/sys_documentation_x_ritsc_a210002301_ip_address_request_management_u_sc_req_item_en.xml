@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sc_req_item" label="Request Item" language="en" table="x_ritsc_a210002301_ip_address_request_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sc_req_item</element>
+            <help/>
+            <hint/>
+            <label>Request Item</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <plural>Request Items</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-11 09:59:51</sys_created_on>
+            <sys_id>f6eabbfadbcffc94a050b3c5f396195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Item</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_documentation_x_ritsc_a210002301_ip_address_request_management_u_sc_req_item_en</sys_update_name>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-11 09:59:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

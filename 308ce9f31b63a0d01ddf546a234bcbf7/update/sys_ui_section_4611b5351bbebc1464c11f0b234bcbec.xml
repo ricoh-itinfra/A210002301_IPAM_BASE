@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4611b5351bbebc1464c11f0b234bcbec" sys_domain="global" table="x_ritsc_a210002301_ip_address_request_management" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_type</element>
+            <position>0</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>75a318021b0370d464c11f0b234bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asset_name</element>
+            <position>1</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>fda318021b0370d464c11f0b234bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>75a318021b0370d464c11f0b234bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <position>3</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>f9a318021b0370d464c11f0b234bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_segment</element>
+            <position>4</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>71a318021b0370d464c11f0b234bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bulk_request</element>
+            <position>5</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>f5a318021b0370d464c11f0b234bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ip_address_management</element>
+            <position>6</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>7da318021b0370d464c11f0b234bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cert_auth</element>
+            <position>7</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>f1a318021b0370d464c11f0b234bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mac_address</element>
+            <position>8</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>79a318021b0370d464c11f0b234bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mac_address_auth</element>
+            <position>9</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>fda318021b0370d464c11f0b234bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_network_auth_type</element>
+            <position>10</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>75a318021b0370d464c11f0b234bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason</element>
+            <position>11</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>f9a318021b0370d464c11f0b234bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_number</element>
+            <position>12</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>71a318021b0370d464c11f0b234bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_status</element>
+            <position>13</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>f5a318021b0370d464c11f0b234bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_csv_line_number</element>
+            <position>14</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>7da318021b0370d464c11f0b234bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>15</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-08 09:13:59</sys_created_on>
+            <sys_id>f1a318021b0370d464c11f0b234bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-08 09:13:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_auth</element>
+            <position>16</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-11 09:52:10</sys_created_on>
+            <sys_id>5e29f3f6dbcffc94a050b3c5f39619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-11 09:52:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sc_req_item</element>
+            <position>17</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-11 09:59:51</sys_created_on>
+            <sys_id>7eeabbfadbcffc94a050b3c5f396195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-11 09:59:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_error_message</element>
+            <position>18</position>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-14 07:44:03</sys_created_on>
+            <sys_id>e298b6bbdb077410a050b3c5f396190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ritsc_a210002301_ip_address_request_management" sys_domain="global" view="Default view">4611b5351bbebc1464c11f0b234bcbec</sys_ui_section>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-14 07:44:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>true</header>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-25 11:08:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4611b5351bbebc1464c11f0b234bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ritsc_a210002301_ip_address_request_management</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_ui_section_4611b5351bbebc1464c11f0b234bcbec</sys_update_name>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-25 11:08:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

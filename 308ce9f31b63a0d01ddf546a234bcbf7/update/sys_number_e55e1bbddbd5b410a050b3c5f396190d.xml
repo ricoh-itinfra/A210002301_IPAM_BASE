@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_ritsc_a210002301_ip_address_bulk_request">x_ritsc_a210002301_ip_address_bulk_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>IPBULK</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>g10023658</sys_created_by>
+        <sys_created_on>2021-07-13 05:31:10</sys_created_on>
+        <sys_id>e55e1bbddbd5b410a050b3c5f396190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IPBULK</sys_name>
+        <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+        <sys_update_name>sys_number_e55e1bbddbd5b410a050b3c5f396190d</sys_update_name>
+        <sys_updated_by>g10023658</sys_updated_by>
+        <sys_updated_on>2021-07-13 05:31:10</sys_updated_on>
+    </sys_number>
+</record_update>

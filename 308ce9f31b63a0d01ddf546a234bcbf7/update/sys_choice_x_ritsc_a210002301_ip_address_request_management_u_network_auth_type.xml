@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_network_auth_type" table="x_ritsc_a210002301_ip_address_request_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_network_auth_type</element>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-27 01:08:09</sys_created_on>
+            <sys_id>f5fab95edbb2f814a050b3c5f39619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_network_auth_type</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_ip_address_request_management_u_network_auth_type</sys_update_name>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-27 01:08:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_auth_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Certificate</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-27 01:08:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82eabd5edbb2f814a050b3c5f3961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-27 01:08:09</sys_updated_on>
+            <value>certificate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_auth_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MAC Address</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sequence/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-27 01:12:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33fabd1edbb2f814a050b3c5f3961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-27 01:12:25</sys_updated_on>
+            <value>mac_address</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
