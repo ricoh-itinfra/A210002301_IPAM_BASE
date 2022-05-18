@@ -4,7 +4,6 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_ritsc_a210002301.ip_address_bulk_request_user</name>

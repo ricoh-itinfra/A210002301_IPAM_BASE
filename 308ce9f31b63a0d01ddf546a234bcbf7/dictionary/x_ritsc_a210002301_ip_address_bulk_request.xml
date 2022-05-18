@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="IP Address Bulk Request" max_length="40" name="x_ritsc_a210002301_ip_address_bulk_request" sizeclass="184" type="collection">
+        <element label="Error Message" max_length="1000" name="u_error_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Failed" max_length="40" name="u_number_of_failed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Total" max_length="40" name="u_number_of_total" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Request Number" max_length="255" name="u_request_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Status" max_length="40" name="u_request_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="In progress" value="in_progress"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Request Item" max_length="32" name="u_sc_req_item" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transform Status" max_length="40" name="u_transform_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unprocessed" sequence="100" value="unprocessed"/>
+                <element inactive_on_update="false" label="Processing" sequence="200" value="processing"/>
+                <element inactive_on_update="false" label="Completed" sequence="300" value="completed"/>
+            </choice>
+        </element>
+    </element>
+</database>

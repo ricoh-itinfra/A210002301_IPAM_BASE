@@ -18,10 +18,10 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Configuration Item" name="cmdb_ci">b5903028db00130013547b088c96193e</super_class>
-        <sys_class_code>)+</sys_class_code>
+        <super_class display_value="Configuration Item" name="cmdb_ci">9cc03028db00130029637b088c96192c</super_class>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path>/!!/)+</sys_class_path>
+        <sys_class_path/>
         <sys_created_by>g10023658</sys_created_by>
         <sys_created_on>2021-07-13 07:46:28</sys_created_on>
         <sys_id>642d737ddb99b410a050b3c5f39619e1</sys_id>
@@ -33,7 +33,6 @@
         <sys_update_name>sys_db_object_642d737ddb99b410a050b3c5f39619e1</sys_update_name>
         <sys_updated_by>r00456463</sys_updated_by>
         <sys_updated_on>2021-09-24 07:24:34</sys_updated_on>
-        <u_file_attachment_1/>
         <update_access>true</update_access>
         <user_role display_value="x_ritsc_a210002301.io_user" name="x_ritsc_a210002301.io_user">7c62ed7c1bfb68d01ddf546a234bcbf1</user_role>
         <ws_access>true</ws_access>

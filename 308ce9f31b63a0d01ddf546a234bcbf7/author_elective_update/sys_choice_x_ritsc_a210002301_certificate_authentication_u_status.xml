@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_ritsc_a210002301_certificate_authentication" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <name>x_ritsc_a210002301_certificate_authentication</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:46:55</sys_created_on>
+            <sys_id>27aa71badbd43410a050b3c5f39619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_status</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_certificate_authentication_u_status</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-27 07:46:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>allocated</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_certificate_authentication</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:46:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>069afd7adbd43410a050b3c5f39619f4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:46:36</sys_updated_on>
+            <value>allocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>割当済</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_certificate_authentication</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:47:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adba3d7adbd43410a050b3c5f3961918</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:46:41</sys_updated_on>
+            <value>allocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>unallocated</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_certificate_authentication</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:47:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83cabd7adbd43410a050b3c5f3961968</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:46:50</sys_updated_on>
+            <value>unallocated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>未割当</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_certificate_authentication</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-05-27 07:48:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eea797adbd43410a050b3c5f39619fa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-05-28 10:46:58</sys_updated_on>
+            <value>unallocated</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

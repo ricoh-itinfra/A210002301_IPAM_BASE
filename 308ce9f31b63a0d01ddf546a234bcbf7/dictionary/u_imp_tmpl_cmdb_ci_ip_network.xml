@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl CMDB CI IP Network" max_length="40" name="u_imp_tmpl_cmdb_ci_ip_network" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ステータス" label="ステータス" max_length="40" name="u_ステータス" type="string"/>
+    </element>
+</database>

@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -32,7 +32,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="参照">reference</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
         <name>x_ritsc_a210002301_fixed_ip_address_management</name>

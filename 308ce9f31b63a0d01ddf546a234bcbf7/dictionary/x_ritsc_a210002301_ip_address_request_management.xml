@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="固定IPアドレス申請管理" max_length="40" name="x_ritsc_a210002301_ip_address_request_management" sizeclass="2896" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Asset Name" max_length="32" name="u_asset_name" reference="x_ritsc_a200002101_integrated_asset_management" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IP Address Bulk Request" max_length="32" name="u_bulk_request" reference="x_ritsc_a210002301_ip_address_bulk_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Certificate Authentication" max_length="32" name="u_cert_auth" reference="x_ritsc_a210002301_certificate_authentication" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Connection type" max_length="40" name="u_connection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wired" sequence="100" value="wired"/>
+                <element inactive_on_update="false" label="有線" language="ja" sequence="100" value="wired"/>
+                <element inactive_on_update="false" label="Wireless" sequence="200" value="wireless"/>
+                <element inactive_on_update="false" label="無線" language="ja" sequence="200" value="wireless"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Csv Line Number" max_length="40" name="u_csv_line_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Device Authentication" max_length="32" name="u_device_auth" reference="cmdb_ci" type="reference"/>
+        <element label="Error Message" max_length="4096" name="u_error_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IP Address Management" max_length="32" name="u_ip_address_management" reference="x_ritsc_a210002301_ip_address_request_management" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="MAC Address Authentication" max_length="32" name="u_mac_address_auth" reference="x_ritsc_a210002301_mac_address_authentication" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Network Authentication Type" max_length="40" name="u_network_auth_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Certificate" value="certificate"/>
+                <element inactive_on_update="false" label="MAC Address" value="mac_address"/>
+            </choice>
+        </element>
+        <element label="Reason" max_length="1000" name="u_reason" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Request Number" max_length="255" name="u_request_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Status" max_length="40" name="u_request_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Success" sequence="100" value="success"/>
+                <element inactive_on_update="false" label="Failed" sequence="200" value="failed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="create" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="新規" language="ja" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="modify" sequence="200" value="modify"/>
+                <element inactive_on_update="false" label="変更" language="ja" sequence="200" value="modify"/>
+                <element inactive_on_update="false" label="delete" sequence="300" value="delete"/>
+                <element inactive_on_update="false" label="削除" language="ja" sequence="300" value="delete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Request Item" max_length="32" name="u_sc_req_item" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Segment" max_length="32" name="u_segment" reference="cmdb_ci_ip_network" type="reference"/>
+    </element>
+</database>

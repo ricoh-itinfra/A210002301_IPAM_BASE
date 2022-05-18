@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>20211109リリース用FixScript&#13;
+// 1.アサイン先が統一されていないデータのアサイン先を変更する&#13;
+// 統合資産管理台帳→固定IPアドレス管理&#13;
+// 証明書認証情報→固定IPアドレス管理&#13;
+// MACアドレス認証情報→固定IPアドレス管理&#13;
+&#13;
+// 2.削除済資産のIP解放&#13;
+// →★★該当データなしのため実施不要&#13;
+&#13;
+// 3.不要なIoTデータ(=証明書認証情報のEIMデータ)を削除する</description>
+        <name>Data_Migration_20211109</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[//=======================================================
+
+// 本番環境件数確認------------------
+// 2021/11/5 → 2021/11/9
+// 固定IPアドレス管理:39件→40
+// 証明書認証情報:83110件→83313
+// MACアドレス認証情報:1480件→1523
+// 固定IP・MACアドレス申請:172件
+// PF:81920件→82089
+// EIM:1189件→1223
+
+// 実施内容--------------------------
+// 1.アサイン先が統一されていないデータのアサイン先を変更する
+// 統合資産管理台帳→固定IPアドレス管理
+// 証明書認証情報→固定IPアドレス管理
+// MACアドレス認証情報→固定IPアドレス管理
+
+// 2.削除済資産のIP解放
+// 証明書認証情報.証明書同期ステータス=Deleted:9313
+// かつ割当ステータス=allocated:0件→0
+// MACアドレス認証情報.MAC同期ステータス=Deleted:13
+// かつ割当ステータス=allocated:0件→0
+// →★★該当データなしのため実施不要
+
+// 3.不要なIoTデータ(=証明書認証情報のEIMデータ)を削除する
+// 証明書認証情報.Vlan割当=IoT:1189件→1223
+
+//=======================================================
+
+// 1.アサイン先が統一されていないデータのアサイン先を変更する
+
+// 固定IPアドレス管理を全件取得
+var ipMngGr = new GlideRecord('x_ritsc_a210002301_fixed_ip_address_management');
+ipMngGr.query();
+gs.info("Data Migration 20211109 start: IP Management record count=" + ipMngGr.getRowCount());
+
+while (ipMngGr.next()) {
+    // アサイン先
+    var ip_mng_assign = ipMngGr.assigned_to;
+
+    // 資産へのリファレンス
+    if (ipMngGr.u_asset_name != ""){
+        // 統合資産管理台帳
+        var assetGr = new GlideRecord('x_ritsc_a200002101_integrated_asset_management');
+        assetGr.addQuery('sys_id', ipMngGr.u_asset_name);
+        assetGr.query();
+        if (assetGr.next()) {
+            if (ip_mng_assign != assetGr.assigned_to) {
+                ipMngGr.assigned_to = assetGr.assigned_to;  
+                ipMngGr.update();
+                gs.info("Data Migration 20211109 update record sys_id:" + ipMngGr.sys_id);
+            }
+        }
+    } else if (ipMngGr.u_certificate_name != ""){
+        // 証明書認証情報
+        var cnGr = new GlideRecord('x_ritsc_a210002301_certificate_authentication');
+        cnGr.addQuery('sys_id', ipMngGr.u_certificate_name);
+        cnGr.query();
+        if (cnGr.next()) {
+            if (ip_mng_assign != cnGr.assigned_to) {
+                ipMngGr.assigned_to = cnGr.assigned_to;  
+                ipMngGr.update();
+                gs.info("Data Migration 20211109 update record sys_id:" + ipMngGr.sys_id);
+            }
+        }
+    } else if (ipMngGr.u_mac_address_name != ""){
+        // MACアドレス認証情報
+        var macGr = new GlideRecord('x_ritsc_a210002301_mac_address_authentication');
+        macGr.addQuery('sys_id', ipMngGr.u_mac_address_name);
+        macGr.query();
+        if (macGr.next()) {
+            if (ip_mng_assign != macGr.assigned_to) {
+                ipMngGr.assigned_to = macGr.assigned_to;  
+                ipMngGr.update();
+                gs.info("Data Migration 20211109 update record sys_id:" + ipMngGr.sys_id);
+            }
+        }
+    }        
+}
+
+// 3.不要なIoTデータ(=証明書認証情報のEIMデータ)を削除する
+
+// 証明書認証情報を全件取得
+var delCnGr = new GlideRecord('x_ritsc_a210002301_certificate_authentication');
+delCnGr.addQuery('u_vlan', 'IoT');
+delCnGr.query();
+gs.info("Data Migration 20211109 start: Delete Cert record count=" + delCnGr.getRowCount());
+
+delCnGr.deleteMultiple();  // 一括削除実行
+
+gs.info("Data Migration 20211109 end:");
+
+
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>g10022592</sys_created_by>
+        <sys_created_on>2021-11-09 08:17:10</sys_created_on>
+        <sys_id>de6970d0dbbfb010f4397845f396198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data_Migration_20211109</sys_name>
+        <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+        <sys_update_name>sys_script_fix_de6970d0dbbfb010f4397845f396198b</sys_update_name>
+        <sys_updated_by>g10022592</sys_updated_by>
+        <sys_updated_on>2021-11-09 08:17:10</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_mac_sync_status" table="x_ritsc_a210002301_mac_address_authentication" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_mac_sync_status</element>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:15:13</sys_created_on>
+            <sys_id>fcebbdca1ba9b8d064c11f0b234bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_mac_sync_status</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_mac_address_authentication_u_mac_sync_status</sys_update_name>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:15:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adding</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:15:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76cbb5ca1ba9b8d064c11f0b234bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:15:13</sys_updated_on>
+            <value>adding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>登録中</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:17:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a16cf54e1ba9b8d064c11f0b234bcba3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-26 04:07:31</sys_updated_on>
+            <value>adding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Added</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:15:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6eeb754e1ba9b8d064c11f0b234bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:15:33</sys_updated_on>
+            <value>added</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>登録済</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:18:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe7c318e1ba9b8d064c11f0b234bcb1e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-26 04:07:48</sys_updated_on>
+            <value>added</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deleting</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:15:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6efbf54e1ba9b8d064c11f0b234bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:15:53</sys_updated_on>
+            <value>deleting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>削除</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:18:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b78c310e1ba9b8d064c11f0b234bcb39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:18:28</sys_updated_on>
+            <value>deleting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deleted</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:16:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c01cf54e1ba9b8d064c11f0b234bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:16:14</sys_updated_on>
+            <value>deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>削除済</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:18:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59acf54e1ba9b8d064c11f0b234bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:18:51</sys_updated_on>
+            <value>deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add Failed</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:16:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>492cf94e1ba9b8d064c11f0b234bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:16:48</sys_updated_on>
+            <value>add failed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>追加失敗</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:19:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7abcf98e1ba9b8d064c11f0b234bcb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:19:26</sys_updated_on>
+            <value>add failed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delete Failed</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:17:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d4c714e1ba9b8d064c11f0b234bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:17:11</sys_updated_on>
+            <value>delete failed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mac_sync_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>削除失敗</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_authentication</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>g10022592</sys_created_by>
+            <sys_created_on>2021-07-26 03:19:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18ec798e1ba9b8d064c11f0b234bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10022592</sys_updated_by>
+            <sys_updated_on>2021-07-26 03:19:52</sys_updated_on>
+            <value>delete failed</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

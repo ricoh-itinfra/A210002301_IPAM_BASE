@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_network_auth_type" table="x_ritsc_a210002301_fixed_ip_address_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_network_auth_type</element>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-15 11:54:07</sys_created_on>
+            <sys_id>2b6bb810db5ff410a050b3c5f39619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_network_auth_type</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_fixed_ip_address_management_u_network_auth_type</sys_update_name>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-15 11:54:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_auth_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Certification</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-15 11:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b5bb414db5ff410a050b3c5f396192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-15 11:54:07</sys_updated_on>
+            <value>certification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_auth_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>証明書</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-15 11:56:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2afb3814db5ff410a050b3c5f396191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-15 11:56:50</sys_updated_on>
+            <value>certification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_auth_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MAC Address</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-15 11:55:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>397b3814db5ff410a050b3c5f396196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-15 11:55:23</sys_updated_on>
+            <value>mac_address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_network_auth_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MACアドレス</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_fixed_ip_address_management</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-10-15 11:57:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>541cb054db5ff410a050b3c5f39619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-10-15 11:57:05</sys_updated_on>
+            <value>mac_address</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

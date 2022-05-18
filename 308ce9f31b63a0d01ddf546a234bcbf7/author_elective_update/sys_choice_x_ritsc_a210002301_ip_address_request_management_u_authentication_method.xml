@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_authentication_method" table="x_ritsc_a210002301_ip_address_request_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_authentication_method</element>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-24 10:06:48</sys_created_on>
+            <sys_id>0b7950a51b323c1464c11f0b234bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_authentication_method</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_ip_address_request_management_u_authentication_method</sys_update_name>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-24 10:06:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>証明書</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-24 10:12:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>369ad4e51b323c1464c11f0b234bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-24 10:12:08</sys_updated_on>
+            <value>certificate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MAC Address</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-24 10:10:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f86a1ce51b323c1464c11f0b234bcb74</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-24 10:11:02</sys_updated_on>
+            <value>mac address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MACアドレス</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-24 10:11:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>837ad8a51b323c1464c11f0b234bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-24 10:11:30</sys_updated_on>
+            <value>mac address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_authentication_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Certificate</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request_management</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>r00456463</sys_created_by>
+            <sys_created_on>2021-09-24 10:06:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12595c651b323c1464c11f0b234bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>r00456463</sys_updated_by>
+            <sys_updated_on>2021-09-24 10:06:48</sys_updated_on>
+            <value>certificate</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

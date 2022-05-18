@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_request_type" table="x_ritsc_a210002301_ip_address_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_request_type</element>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:01:11</sys_created_on>
+            <sys_id>f96e0c0adb1db410a050b3c5f3961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_request_type</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_ip_address_request_u_request_type</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-13 09:01:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>create</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:01:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e42e800adb1db410a050b3c5f3961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-13 09:01:10</sys_updated_on>
+            <value>create</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>新規</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:01:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>766e04c6db1db410a050b3c5f3961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-13 09:01:33</sys_updated_on>
+            <value>create</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>modify</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72ae804adb1db410a050b3c5f39619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-08-19 12:46:31</sys_updated_on>
+            <value>modify</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>変更</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:03:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79de844adb1db410a050b3c5f3961939</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-08-19 12:46:44</sys_updated_on>
+            <value>modify</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>delete</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c8e8c0adb1db410a050b3c5f3961965</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-13 09:02:53</sys_updated_on>
+            <value>delete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>削除</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_ip_address_request</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-13 09:02:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c9e8c0adb1db410a050b3c5f3961995</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-13 09:03:02</sys_updated_on>
+            <value>delete</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

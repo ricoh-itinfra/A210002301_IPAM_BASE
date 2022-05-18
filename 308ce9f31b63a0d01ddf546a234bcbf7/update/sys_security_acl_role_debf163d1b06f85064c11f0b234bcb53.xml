@@ -9,7 +9,7 @@
         <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
         <sys_policy/>
         <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
-        <sys_security_acl display_value="">35bf1a7d1b06f85064c11f0b234bcb25</sys_security_acl>
+        <sys_security_acl display_value="x_ritsc_a210002301_ip_address_request">35bf1a7d1b06f85064c11f0b234bcb25</sys_security_acl>
         <sys_update_name>sys_security_acl_role_debf163d1b06f85064c11f0b234bcb53</sys_update_name>
         <sys_updated_by>g10023658</sys_updated_by>
         <sys_updated_on>2021-08-19 07:45:30</sys_updated_on>

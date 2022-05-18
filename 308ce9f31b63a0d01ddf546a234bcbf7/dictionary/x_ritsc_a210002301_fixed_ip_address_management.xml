@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="固定IPアドレス管理" max_length="40" name="x_ritsc_a210002301_fixed_ip_address_management" sizeclass="2403" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Request number" max_length="255" name="request_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Applicant ruid" max_length="32" name="u_applicant_ruid" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Asset Name" max_length="32" name="u_asset_name" reference="x_ritsc_a200002101_integrated_asset_management" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="証明書名" max_length="32" name="u_certificate_name" reference="x_ritsc_a210002301_certificate_authentication" type="reference"/>
+        <element active="false" attributes="edge_encryption_enabled=true,encode_utf8=false" label="証明書認証番号" max_length="32" name="u_certificate_number" reference="x_ritsc_a210002301_certificate_authentication" type="reference"/>
+        <element label="Computer Name" max_length="255" name="u_computer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="接続形態" max_length="40" name="u_connection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wired" sequence="100" value="wired"/>
+                <element inactive_on_update="false" label="有線" language="ja" sequence="100" value="wired"/>
+                <element inactive_on_update="false" label="Wireless" sequence="200" value="wireless"/>
+                <element inactive_on_update="false" label="無線" language="ja" sequence="200" value="wireless"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Network Access Authentication" max_length="32" name="u_device_auth" reference="cmdb_ci" type="reference"/>
+        <element label="Fixed IP Address" max_length="255" name="u_fixed_ip_address" type="string" unique="true"/>
+        <element active="false" label="固定IP番号" max_length="255" name="u_fixed_ip_address_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="IpAddress Request" max_length="32" name="u_ip_address_request" reference="x_ritsc_a210002301_ip_address_request_management" type="reference"/>
+        <element label="Last use datetime" max_length="40" name="u_last_use_datetime" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
+        <element label="固定IPアドレス割当済MACアドレス" max_length="18" name="u_mac_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="MACアドレス名" max_length="32" name="u_mac_address_name" reference="x_ritsc_a210002301_mac_address_authentication" type="reference"/>
+        <element active="false" attributes="edge_encryption_enabled=true,encode_utf8=false" label="MAC認証番号" max_length="32" name="u_mac_address_number" reference="x_ritsc_a210002301_mac_address_authentication" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Network Authentication Type" max_length="40" name="u_network_auth_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Certification" value="certification"/>
+                <element inactive_on_update="false" label="MAC Address" value="mac_address"/>
+                <element inactive_on_update="false" label="MACアドレス" language="ja" value="mac_address"/>
+                <element inactive_on_update="false" label="証明書" language="ja" value="certification"/>
+            </choice>
+        </element>
+        <element label="Reason" max_length="1000" name="u_reason" type="string"/>
+        <element label="Request datetime" max_length="40" name="u_request_datetime" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="申請種別" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="create" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="新規" language="ja" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="delete" sequence="200" value="delete"/>
+                <element inactive_on_update="false" label="削除" language="ja" sequence="200" value="delete"/>
+                <element inactive_on_update="false" label="modify" sequence="300" value="modify"/>
+                <element inactive_on_update="false" label="変更" language="ja" sequence="300" value="modify"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Segment" max_length="32" name="u_segment" reference="cmdb_ci_ip_network" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="割当ステータス" max_length="255" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="allocated" sequence="100" value="allocated"/>
+                <element inactive_on_update="false" label="割当済" language="ja" sequence="100" value="allocated"/>
+                <element inactive_on_update="false" label="unallocated" sequence="200" value="unallocated"/>
+                <element inactive_on_update="false" label="未割当" language="ja" sequence="200" value="unallocated"/>
+            </choice>
+        </element>
+    </element>
+</database>

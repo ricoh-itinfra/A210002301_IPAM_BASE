@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>IP Address And Mac Address Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>IP Address And Mac Address Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">d0c0fce4db00130029637b088c9619da</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>g10023658</sys_created_by>
+        <sys_created_on>2021-08-16 03:51:31</sys_created_on>
+        <sys_id>599d06b0db4a745060283de6f3961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Address And Mac Address Request</sys_name>
+        <sys_package display_value="A200002101 Device Authentication Base" source="x_ritsc_a200002101">623fa88e1b3a9054f5aedc24cc4bcb11</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+        <sys_update_name>sys_wizard_answer_599d06b0db4a745060283de6f3961942</sys_update_name>
+        <sys_updated_by>g10023658</sys_updated_by>
+        <sys_updated_on>2021-08-16 03:51:31</sys_updated_on>
+        <table/>
+        <target_url>x_ritsc_a210002301_ip_address_and_mac_address_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

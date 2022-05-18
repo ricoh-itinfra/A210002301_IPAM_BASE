@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>20211119_IoT_Update</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var macGr = new GlideRecord('x_ritsc_a210002301_mac_address_authentication');
+macGr.addQuery('name', 'E4:30:22:15:1B:43');
+macGr.query();
+if (macGr.next()) {
+	macGr.u_vlan = 'IoT';  
+	macGr.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>g10022592</sys_created_by>
+        <sys_created_on>2021-11-19 09:55:12</sys_created_on>
+        <sys_id>62aee063dbf73c1060283de6f39619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>20211119_IoT_Update</sys_name>
+        <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+        <sys_update_name>sys_script_fix_62aee063dbf73c1060283de6f39619fb</sys_update_name>
+        <sys_updated_by>g10022592</sys_updated_by>
+        <sys_updated_on>2021-11-19 09:55:12</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

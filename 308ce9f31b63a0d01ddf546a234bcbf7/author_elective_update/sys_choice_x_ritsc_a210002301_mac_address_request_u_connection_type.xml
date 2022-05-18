@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_connection_type" table="x_ritsc_a210002301_mac_address_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_connection_type</element>
+            <name>x_ritsc_a210002301_mac_address_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-14 00:23:54</sys_created_on>
+            <sys_id>de91a386db113810a050b3c5f39619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_connection_type</sys_name>
+            <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+            <sys_update_name>sys_choice_x_ritsc_a210002301_mac_address_request_u_connection_type</sys_update_name>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-14 00:23:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wired</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-14 00:23:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0281a386db113810a050b3c5f396190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-14 00:23:54</sys_updated_on>
+            <value>wired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>有線</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-14 00:24:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76912386db113810a050b3c5f39619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-14 00:24:08</sys_updated_on>
+            <value>wired</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wireless</label>
+            <language>en</language>
+            <name>x_ritsc_a210002301_mac_address_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-14 00:24:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dea12786db113810a050b3c5f3961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-14 00:24:27</sys_updated_on>
+            <value>wireless</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_connection_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>無線</label>
+            <language>ja</language>
+            <name>x_ritsc_a210002301_mac_address_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>g10023658</sys_created_by>
+            <sys_created_on>2021-07-14 00:24:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7b1e786db113810a050b3c5f396198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>g10023658</sys_updated_by>
+            <sys_updated_on>2021-07-14 00:24:42</sys_updated_on>
+            <value>wireless</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

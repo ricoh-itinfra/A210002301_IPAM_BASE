@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Mac Address Request" max_length="40" name="x_ritsc_a210002301_mac_address_request" sizeclass="821" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="資産名" max_length="32" name="u_asset_name" reference="x_ritsc_a200002101_integrated_asset_management" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="接続形態" max_length="40" name="u_connection_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wired" sequence="100" value="wired"/>
+                <element inactive_on_update="false" label="有線" language="ja" sequence="100" value="wired"/>
+                <element inactive_on_update="false" label="Wireless" sequence="200" value="wireless"/>
+                <element inactive_on_update="false" label="無線" language="ja" sequence="200" value="wireless"/>
+            </choice>
+        </element>
+        <element label="Error Message" max_length="1000" name="u_error_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="MACアドレス名" max_length="32" name="u_mac_address_name" reference="x_ritsc_a210002301_mac_address_authentication" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="MACアドレス申請区分" max_length="40" name="u_mac_address_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Physical" sequence="100" value="physical"/>
+                <element inactive_on_update="false" label="物理" language="ja" sequence="100" value="physical"/>
+                <element inactive_on_update="false" label="Virtual" sequence="200" value="virtual"/>
+                <element inactive_on_update="false" label="仮想" language="ja" sequence="200" value="virtual"/>
+            </choice>
+        </element>
+        <element label="採番MACアドレス" max_length="18" name="u_numbering_mac_address" type="string"/>
+        <element label="申請理由" max_length="1000" name="u_reason" type="string"/>
+        <element label="申請日時" max_length="40" name="u_request_datetime" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="申請番号" max_length="255" name="u_request_number" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="申請ステータス" max_length="40" name="u_request_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Success" sequence="100" value="success"/>
+                <element inactive_on_update="false" label="成功" language="ja" sequence="100" value="success"/>
+                <element inactive_on_update="false" label="Failed" sequence="200" value="failed"/>
+                <element inactive_on_update="false" label="失敗" language="ja" sequence="200" value="failed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="申請種別" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="create" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="新規" language="ja" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="modify" sequence="200" value="modify"/>
+                <element inactive_on_update="false" label="変更" language="ja" sequence="200" value="modify"/>
+                <element inactive_on_update="false" label="delete" sequence="300" value="delete"/>
+                <element inactive_on_update="false" label="削除" language="ja" sequence="300" value="delete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Request Item" max_length="32" name="u_sc_req_item" reference="sc_req_item" type="reference"/>
+    </element>
+</database>

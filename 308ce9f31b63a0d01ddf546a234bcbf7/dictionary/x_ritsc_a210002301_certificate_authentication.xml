@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="証明書認証情報" max_length="40" name="x_ritsc_a210002301_certificate_authentication" sizeclass="88534" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Applicant ruid" max_length="32" name="u_applicant_ruid" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Asset Name" max_length="32" name="u_asset_name" reference="x_ritsc_a200002101_integrated_asset_management" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="証明書認証番号" max_length="255" name="u_certificate_number" type="string"/>
+        <element choice="1" label="Cert Sync Status" max_length="40" name="u_cert_sync_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Adding" sequence="100" value="adding"/>
+                <element inactive_on_update="false" label="追加" language="ja" sequence="100" value="adding"/>
+                <element inactive_on_update="false" label="Added" sequence="200" value="added"/>
+                <element inactive_on_update="false" label="追加済" language="ja" sequence="200" value="added"/>
+                <element inactive_on_update="false" label="Deleting" sequence="300" value="deleting"/>
+                <element inactive_on_update="false" label="削除" language="ja" sequence="300" value="deleting"/>
+                <element inactive_on_update="false" label="Deleted" sequence="400" value="deleted"/>
+                <element inactive_on_update="false" label="削除済" language="ja" sequence="400" value="deleted"/>
+                <element inactive_on_update="false" label="Add Failed" sequence="500" value="add failed"/>
+                <element inactive_on_update="false" label="追加失敗" language="ja" sequence="500" value="add failed"/>
+                <element inactive_on_update="false" label="Delete Failed" sequence="600" value="delete failed"/>
+                <element inactive_on_update="false" label="削除失敗" language="ja" sequence="600" value="delete failed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Change Info Sync Status" max_length="40" name="u_change_info_sync_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requesting" sequence="100" value="requesting"/>
+                <element inactive_on_update="false" label="申請中" language="ja" sequence="100" value="requesting"/>
+                <element inactive_on_update="false" label="Requested" sequence="200" value="requested"/>
+                <element inactive_on_update="false" label="申請済" language="ja" sequence="200" value="requested"/>
+            </choice>
+        </element>
+        <element label="Computer Name" max_length="255" name="u_computer_name" type="string"/>
+        <element label="Last use datetime" max_length="40" name="u_last_use_datetime" type="glide_date_time"/>
+        <element label="Reason" max_length="1000" name="u_reason" type="string"/>
+        <element label="申請日時" max_length="40" name="u_request_datetime" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="リクエスト残回数" max_length="40" name="u_request_remaining_number_of_times" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="100" value="0"/>
+                <element inactive_on_update="false" label="0" language="ja" sequence="100" value="0"/>
+                <element inactive_on_update="false" label="1" language="ja" sequence="200" value="1"/>
+                <element inactive_on_update="false" label="1" sequence="200" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="300" value="2"/>
+                <element inactive_on_update="false" label="2" language="ja" sequence="300" value="2"/>
+                <element inactive_on_update="false" label="3" language="ja" sequence="400" value="3"/>
+                <element inactive_on_update="false" label="3" sequence="400" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="申請種別" max_length="40" name="u_request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="create" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="新規" language="ja" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="delete" sequence="200" value="delete"/>
+                <element inactive_on_update="false" label="削除" language="ja" sequence="200" value="delete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="割当ステータス" max_length="255" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="allocated" sequence="100" value="allocated"/>
+                <element inactive_on_update="false" label="割当済" language="ja" sequence="100" value="allocated"/>
+                <element inactive_on_update="false" label="unallocated" sequence="200" value="unallocated"/>
+                <element inactive_on_update="false" label="未割当" language="ja" sequence="200" value="unallocated"/>
+            </choice>
+        </element>
+        <element label="Vlan" max_length="255" name="u_vlan" type="string"/>
+    </element>
+</database>
