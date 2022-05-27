@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="IP Address Bulk Request" max_length="40" name="x_ritsc_a210002301_ip_address_bulk_request" sizeclass="184" type="collection">
+    <element extends="cmdb_ci" label="IP Address Bulk Request" max_length="40" name="x_ritsc_a210002301_ip_address_bulk_request" sizeclass="185" type="collection">
         <element label="Error Message" max_length="1000" name="u_error_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Number of Failed" max_length="40" name="u_number_of_failed" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Number of Total" max_length="40" name="u_number_of_total" type="integer"/>

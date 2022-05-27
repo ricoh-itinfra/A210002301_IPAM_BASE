@@ -6,7 +6,7 @@
         <attributes>edge_encryption_enabled=true,import_attribute_name=ステータス</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>ステータス</column_label>
@@ -49,14 +49,14 @@
         <sys_created_by>r00456463</sys_created_by>
         <sys_created_on>2021-11-26 01:28:33</sys_created_on>
         <sys_id>e90ffee9db88091060283de6f3961940</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ステータス</sys_name>
         <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
         <sys_policy/>
         <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
         <sys_update_name>sys_dictionary_u_imp_tmpl_cmdb_ci_ip_network_u_ステータス</sys_update_name>
         <sys_updated_by>r00456463</sys_updated_by>
-        <sys_updated_on>2021-11-26 01:28:33</sys_updated_on>
+        <sys_updated_on>2022-05-18 15:12:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

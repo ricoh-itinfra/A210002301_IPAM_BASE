@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="固定IPアドレス管理" max_length="40" name="x_ritsc_a210002301_fixed_ip_address_management" sizeclass="2403" type="collection">
+    <element extends="cmdb_ci" label="固定IPアドレス管理" max_length="40" name="x_ritsc_a210002301_fixed_ip_address_management" sizeclass="2410" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Request number" max_length="255" name="request_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Applicant ruid" max_length="32" name="u_applicant_ruid" reference="sys_user" type="reference"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>r00456463</sys_created_by>
+        <sys_created_on>2022-05-23 05:29:00</sys_created_on>
+        <sys_id>5301e0cbdb6f4190b8a83346f3961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>var__m_sys_hub_action_input_f0d9f384731103005e7d234ffff6a777</sys_name>
+        <sys_package display_value="A210002301_IPAM_BASE" source="x_ritsc_a210002301">308ce9f31b63a0d01ddf546a234bcbf7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A210002301_IPAM_BASE">308ce9f31b63a0d01ddf546a234bcbf7</sys_scope>
+        <sys_update_name>sys_scope_privilege_5301e0cbdb6f4190b8a83346f3961927</sys_update_name>
+        <sys_updated_by>r00456463</sys_updated_by>
+        <sys_updated_on>2022-05-23 05:29:00</sys_updated_on>
+        <target_name>var__m_sys_hub_action_input_f0d9f384731103005e7d234ffff6a777</target_name>
+        <target_scope display_value="ITSM Spoke">7f1c13c0731103005e7d234ffff6a7da</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

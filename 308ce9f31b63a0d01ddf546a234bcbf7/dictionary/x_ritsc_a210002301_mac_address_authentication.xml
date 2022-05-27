@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="MAC Address Authentication" max_length="40" name="x_ritsc_a210002301_mac_address_authentication" sizeclass="7122" type="collection">
+    <element extends="cmdb_ci" label="MAC Address Authentication" max_length="40" name="x_ritsc_a210002301_mac_address_authentication" sizeclass="7153" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Applicant ruid" max_length="32" name="u_applicant_ruid" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" choice="1" label="Asset Name" max_length="40" name="u_asset_name" reference="x_ritsc_a200002101_integrated_asset_management" type="reference">
             <choice/>
